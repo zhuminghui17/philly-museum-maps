@@ -1,0 +1,100 @@
+[
+  {
+    "name": "Philadelphia Museum of Art",
+    "location": [39.9656, -75.1800],
+    "address": "2600 Benjamin Franklin Pkwy, Philadelphia, PA 19130",
+    "description": "One of the largest and most renowned art museums in the country.",
+    "website": "https://www.philamuseum.org/"
+  },
+  {
+    "name": "Barnes Foundation",
+    "location": [39.9607, -75.1729],
+    "address": "2025 Benjamin Franklin Pkwy, Philadelphia, PA 19130",
+    "description": "Home to a vast collection of Impressionist, Post-Impressionist, and early Modern paintings.",
+    "website": "https://www.barnesfoundation.org/"
+  },
+  {
+    "name": "Pennsylvania Academy of the Fine Arts",
+    "location": [39.9556, -75.1638],
+    "address": "118-128 N Broad St, Philadelphia, PA 19102",
+    "description": "The first and oldest art museum and art school in the United States.",
+    "website": "https://www.pafa.org/"
+  },
+  {
+    "name": "The Institute of Contemporary Art",
+    "location": [39.9521, -75.1932],
+    "address": "118 S 36th St, Philadelphia, PA 19104",
+    "description": "A contemporary art museum featuring exhibitions by local and international artists.",
+    "website": "https://icaphila.org/"
+  },
+  {
+    "name": "Rodin Museum",
+    "location": [39.9613, -75.1741],
+    "address": "2151 Benjamin Franklin Pkwy, Philadelphia, PA 19130",
+    "description": "Houses one of the largest collections of works by Auguste Rodin outside Paris.",
+    "website": "https://www.rodinmuseum.org/"
+  },
+  {
+    "name": "The Fabric Workshop and Museum",
+    "location": [39.9550, -75.1615],
+    "address": "1214 Arch St, Philadelphia, PA 19107",
+    "description": "A contemporary art museum with a focus on innovative fabric and textile art.",
+    "website": "https://fabricworkshopandmuseum.org/"
+  },
+  {
+    "name": "Woodmere Art Museum",
+    "location": [40.0787, -75.2152],
+    "address": "9201 Germantown Ave, Philadelphia, PA 19118",
+    "description": "Focuses on the art and artists of Philadelphia, located in a 19th-century mansion.",
+    "website": "https://woodmereartmuseum.org/"
+  },
+  {
+    "name": "The African American Museum in Philadelphia",
+    "location": [39.9555, -75.1610],
+    "address": "701 Arch St, Philadelphia, PA 19106",
+    "description": "Dedicated to preserving, interpreting, and exhibiting the heritage of African Americans.",
+    "website": "https://www.aampmuseum.org/"
+  },
+  {
+    "name": "Mütter Museum",
+    "location": [39.9533, -75.1745],
+    "address": "19 S 22nd St, Philadelphia, PA 19103",
+    "description": "A medical museum featuring anatomical specimens, models, and medical instruments.",
+    "website": "https://muttermuseum.org/"
+  },
+  {
+    "name": "National Liberty Museum",
+    "location": [39.9489, -75.1457],
+    "address": "321 Chestnut St, Philadelphia, PA 19106",
+    "description": "Focuses on freedom, diversity, and the heritage of liberty in the United States.",
+    "website": "https://www.libertymuseum.org/"
+  },
+  {
+    "name": "The Rosenbach Museum & Library",
+    "location": [39.9460, -75.1755],
+    "address": "2008-2010 Delancey Pl, Philadelphia, PA 19103",
+    "description": "A museum and library housing a world-renowned collection of rare books, manuscripts, and fine art.",
+    "website": "https://rosenbach.org/"
+  },
+  {
+    "name": "Penn Museum (University of Pennsylvania Museum of Archaeology and Anthropology)",
+    "location": [39.9494, -75.1910],
+    "address": "3260 South St, Philadelphia, PA 19104",
+    "description": "A museum dedicated to archaeology and anthropology, with collections from around the world.",
+    "website": "https://www.penn.museum/"
+  },
+  {
+    "name": "The Franklin Institute",
+    "location": [39.9583, -75.1735],
+    "address": "222 N 20th St, Philadelphia, PA 19103",
+    "description": "A science museum and the center of science education and research in Philadelphia.",
+    "website": "https://www.fi.edu/"
+  },
+  {
+    "name": "National Museum of American Jewish History",
+    "location": [39.9504, -75.1484],
+    "address": "101 S Independence Mall E, Philadelphia, PA 19106",
+    "description": "A museum dedicated to chronicling the American Jewish experience.",
+    "website": "https://www.nmajh.org/"
+  }
+]

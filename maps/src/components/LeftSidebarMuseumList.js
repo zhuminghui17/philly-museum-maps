@@ -1,27 +1,30 @@
-// src/components/Sidebar.js
-import React, { useState } from 'react';
-import './Sidebar.css';
+import React, { useState, useEffect } from 'react';
+import './LeftSidebarMuseumList.css';
 
-const Sidebar = ({ museums, onSelectMuseum }) => {
+const LeftSidebarMuseumList = ({ museums, selectedMuseum: initialSelectedMuseum, onSelectMuseum }) => {
   const [searchTerm, setSearchTerm] = useState('');
-  const [selectedMuseum, setSelectedMuseum] = useState(null);
+  const [selectedMuseum, setSelectedMuseum] = useState(initialSelectedMuseum);
+
+  useEffect(() => {
+    setSelectedMuseum(initialSelectedMuseum);
+  }, [initialSelectedMuseum]);
 
   const handleSearch = (e) => {
     setSearchTerm(e.target.value);
   };
-
-  const filteredMuseums = museums.filter((museum) =>
-    museum.name.toLowerCase().includes(searchTerm.toLowerCase())
-  );
 
   const handleSelect = (museum) => {
     setSelectedMuseum(museum);
     onSelectMuseum(museum);
   };
 
+  const filteredMuseums = museums.filter((museum) =>
+    museum.name.toLowerCase().includes(searchTerm.toLowerCase())
+  );
+
   return (
-    <div className="sidebar">
-      <h1>🎨 Philly Art Museums</h1>
+    <div className="left-sidebar">
+      <h2>🎨 Philly Museum Maps</h2>
       <input
         type="text"
         placeholder="Search museums..."
@@ -41,16 +44,8 @@ const Sidebar = ({ museums, onSelectMuseum }) => {
           </div>
         ))}
       </div>
-      {selectedMuseum && (
-        <div className="museum-details">
-          <h2>{selectedMuseum.name}</h2>
-          <p><strong>Address:</strong> {selectedMuseum.address}</p>
-          <p><strong>Description:</strong> A beautiful art museum in Philadelphia.</p>
-          {/* Add more details as needed */}
-        </div>
-      )}
     </div>
   );
 };
 
-export default Sidebar;
+export default LeftSidebarMuseumList;

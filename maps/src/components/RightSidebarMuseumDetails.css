@@ -1,0 +1,23 @@
+.right-sidebar {
+  padding: 20px;
+  background-color: #f4f4f4;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.museum-details {
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.museum-details h2 {
+  margin-top: 0;
+  font-size: 1.4em;
+  color: #333;
+}
+
+.museum-details p {
+  margin: 10px 0;
+  color: #555;
+}

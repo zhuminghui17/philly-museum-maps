@@ -1,0 +1,49 @@
+.left-sidebar {
+  padding: 20px;
+  background-color: #f4f4f4;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.museum-list {
+  overflow-y: auto;
+}
+
+.museum-item {
+  padding: 10px;
+  background-color: #fff;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border: 1px solid #ddd;
+}
+
+.museum-item:hover {
+  background-color: #e0e0e0;
+}
+
+.museum-item.selected {
+  background-color: #dcdcdc;
+  border-color: #bbb;
+}
+
+.museum-item h3 {
+  margin: 0;
+  font-size: 1.1em;
+  color: #333;
+}
+
+.museum-item p {
+  margin: 5px 0 0;
+  color: #666;
+  font-size: 0.9em;
+}
